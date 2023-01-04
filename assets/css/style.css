@@ -739,7 +739,7 @@ same variable*/
 
 /*MEDIA QUERIES*/
 /* For small devices */
-@media screen and (max-width: 350px){
+@media screen and (max-width: 375px){
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -761,6 +761,14 @@ same variable*/
     }
     .education__data{
         gap: 0.5rem;
+    }
+    .researchIF__subtitle{
+        font-size: var(--small-font-size);
+        margin-bottom: var(--mb-0-5);
+        font-weight: var(--font-medium);
+        color: var(--text-color);
+        padding-left: 1rem;
+
     }
 
 
