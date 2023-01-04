@@ -550,6 +550,7 @@ li {
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-0-5);
     font-weight: var(--font-medium);
+    padding: 0.5rem;
 }
 
 .research__button{
