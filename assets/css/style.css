@@ -192,6 +192,8 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 }
 .nav__logo, .nav__toggle{
     color: var(--title-color);
